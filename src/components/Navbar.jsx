@@ -9,7 +9,7 @@ const Navbar = () => {
     const completedTodos = allTodos.filter(t => t.status);
    
     return (
-        <nav className="flex items-center justify-between px-7 bg-slate-900 text-white">
+        <nav className="flex items-center justify-between px-7 bg-gray-900 text-white">
             <ul className="flex items-center gap-8 text-2xl py-4">
                 <li><Link to="/">TodoApp</Link></li>
                 <li><Link to="/counter-app">CounterApp</Link></li>
